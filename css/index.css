@@ -28,8 +28,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -49,6 +51,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 html, body {
@@ -104,7 +107,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +146,126 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.nav {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    padding:20px 0 20px 0;
+}
+
+.nav li {
+    display: inline-block;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav li a {
+    text-decoration:none;
+    color: black;
+}
+.nav li a:hover {
+    color:#c1c1c1;
+}
+
+.logo2 {
+    display: flex;
+    align-items: left;
+    padding-left: 400px;
+}
+
+.container1{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.item{
+    width: 700px;
+    padding: 30px;
+
+}
+
+
+.item img{   
+    border: 1px solid black;
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 400px;
+}
+
+.pg{
+    width:800px;
+    text-align:center;
+    margin-left:30%;
+}
+
+.pg2{
+    width:1100px;
+    text-align:left;
+    margin-left:10%;
+    padding-bottom: 20px;
+}
+
+
+}
+.item p {
+    text-align:center;
+    width:400px;
+    height:100px;
+}
+
+.middle-content .boxes .box10 {
+   display:flex;
+   background: dodgerblue;
+}
+.middle-content .boxes .box9{
+    display:flex;
+    background: indigo;
+
+}
+.middle-content .boxes .box8{
+    display:flex;
+    background: hotpink;
+
+}
+.middle-content .boxes .box7{
+    display:flex;
+    background: darkorchid;
+}
+.middle-content .boxes .box6{
+    display:flex;
+    background: forestgreen;
+}
+.middle-content .boxes .box5{
+    display:flex;
+    background: crimson;
+}
+.middle-content .boxes .box4{
+    display:flex;
+    background: coral;
+}
+.middle-content .boxes .box3{
+    display:flex;
+    background: cadetblue;
+}
+.middle-content .boxes .box2{
+    display:flex;
+    background: gold;
+}
+.middle-content .boxes .box1{
+    display:flex;
+    background: teal;
+}
+
+.learn {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    background: lightgray;
 }
